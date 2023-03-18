@@ -127,10 +127,10 @@ header {
 	position: absolute;
 }
 #banner .arrow_left {
-	left: 60px;
+	left: -10px;
 }
 #banner .arrow_right {
-	right: 60px;
+	right: -10px;
 }
 
 
