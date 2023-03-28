@@ -91,10 +91,10 @@ const displayBanner = (numImage = 0) => {
 	console.log(dotList);
 
 	// ajout de "dot_selected" quand l'image correspond à l'index sinon suppression
-		dotList.forEach((dot, index) => {
-	//console.log(index);
+	dotList.forEach((dot, index) => {
+		//console.log(index);
 
-		if (numImage === index) {  
+		if (numImage === index) {
 			console.log(index);
 			dot.classList.add('dot_selected');
 		} else {
