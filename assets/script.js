@@ -65,7 +65,7 @@ const displayBanner = (numImage = 0) => {
 
 	/* A FAIRE : si mon imgBanner n'existe pas (!=) je la crée avec l'id imgBanner et sinon si elle existe je la cible (id) 
 	et je change la valeur de l'attribut (src) (get setattribute) 
-	banner.insertAdjacentHTML("afterbegin",`<img id="imgBanner" src="assets/images/slideshow/${slides[numImage].image}" >`)*/
+	*/
 
     if (!document.querySelector('#imgBanner')) {
         banner.insertAdjacentHTML("afterbegin",`<img id="imgBanner" src="assets/images/slideshow/${slides[numImage].image}" >`);
